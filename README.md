@@ -1,4 +1,4 @@
-# md-select-enum
+# md-select-data
 
 Select component for enums or simple objects, based on the AngularJs Material.
 
