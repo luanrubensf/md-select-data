@@ -1,0 +1,6 @@
+<md-select ng-model="vm.ngModel"
+           md-selected-text="vm.mdSelectedText()"
+           ng-disabled="vm.ngDisabled"
+           ng-required="vm.ngRequired">
+    <md-option ng-value="option.id" ng-repeat="option in vm.enumOptions">{{vm.formatOption(option)}}</md-option>
+</md-select>
