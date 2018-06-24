@@ -1,5 +1,7 @@
 # md-select-data
 
+[![Build Status](https://travis-ci.org/luanrubensf/md-select-data.svg?branch=master)](https://travis-ci.org/luanrubensf/md-select-data)
+
 Select component for enums or simple objects, based on the AngularJs Material.
 This will work perfectly for simple objects and pre-defined options.
 To use with dynamic data, fetched from an API, you can use the [md-select-scroll](https://github.com/luanrubensf/md-select-scroll).
