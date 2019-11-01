@@ -62,7 +62,7 @@ class DirectiveController {
      * @returns {*} the formatted value
      */
     mdSelectedText() {
-        if (!this.ngModel) {
+        if (_.isEmpty(this.ngModel)) {
             return this.label;
         }
         const selected = this.findSelected(this.enumOptions, this.ngModel);

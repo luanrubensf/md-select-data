@@ -1,6 +1,6 @@
 {
   "name": "md-select-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Select directive for simple objects, based on md-select",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile"
